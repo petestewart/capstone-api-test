@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import yelpData from '../helpers/data/yelpData';
 
@@ -17,7 +17,6 @@ const Yelp = () => {
     .catch((err) => console.error(err));
   };
 
-  // useEffect(getNewRestaurant, []);
 
   return (
     <div className="Yelp">
