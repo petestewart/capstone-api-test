@@ -13,6 +13,4 @@ const yelpREST = axios.create({
 
 const getRestaurantInfo = (yelpId) => yelpREST(`/businesses/${yelpId}`);
 
-
-
 export default { getRestaurantInfo };
